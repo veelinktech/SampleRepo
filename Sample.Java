@@ -12,10 +12,18 @@ public class Sample
    System.out.println(c);
  }
 
+public static void sub()
+{
+
+
+}
+
  public static void main(String[] args)
  {
     Sample s1 = new Sample();
     s1.m1(10,15);
+
+    sub();
  }
 
 
