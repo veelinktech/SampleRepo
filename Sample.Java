@@ -1,14 +1,15 @@
 public class Sample
 {
 
- public static void m1()
+ public void m1()
  {
    System.out.println("Welcome to Github tutorial");
  }
 
  public static void main(String[] args)
  {
-     m1();
+    Sample s1 = new Sample();
+    s1.m1();
  }
 
 
