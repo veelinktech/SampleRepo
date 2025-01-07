@@ -1,11 +1,11 @@
 public class Sample
 {
 
- public void add()
+ public void add(int a, int b)
  {
    System.out.println("Welcome to Github tutorial");
 
-   int a = 10, b = 20, c;
+   int c;
 
    c = a + b;
 
@@ -15,7 +15,7 @@ public class Sample
  public static void main(String[] args)
  {
     Sample s1 = new Sample();
-    s1.m1();
+    s1.m1(10,15);
  }
 
 
